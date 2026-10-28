@@ -1,0 +1,311 @@
+﻿SKU;Category;Title;Description;Text;Photo;Price;Quantity;External ID;Characteristics:Марка автомобиля;Characteristics:Модель автомобиля;Characteristics:Объём двигателя;Characteristics:Мощность;Characteristics:Код двигателя;Characteristics:Тип привода ГРМ
+CWVA;Двигатели;CWVA — двигатель 1.6 л, 110 л.с.;CWVA (1.6 MPI, 110 л.с., ремень). Разработан для стран СНГ и Восточной Европы.;"Код двигателя: CWVA
+Объём: 1.6 л
+Мощность: 110 л.с.
+Привод ГРМ: ремень
+
+Подходит для:
+• Golf 7 — 2014–2020
+• Octavia A7 — 2014–2020
+• Yeti — 2014–2018
+• Polo Sedan — 2015–2020
+• Jetta 6 — 2015–2019
+• Caddy 4 — 2015–2020
+• Rapid 1 — 2015–2020
+• Jetta 7 — 2018–2022
+• Karoq — 2019–2022
+• Polo 6 (лифтбек) — 2020–2022
+• Rapid 2 — 2020–2022
+• Octavia A8 — 2020–2022";;119000;;HEART-CWVA;"Volkswagen;Skoda";"Golf 7;Octavia A7;Yeti;Polo Sedan;Jetta 6;Caddy 4;Rapid 1;Jetta 7;Karoq;Polo 6 (лифтбек);Rapid 2;Octavia A8";1.6 л;110 л.с.;CWVA;ремень
+CWVB;Двигатели;CWVB — двигатель 1.6 л, 90 л.с.;CWVB (1.6 MPI, 90 л.с., ремень). Дефорсированная версия мотора CWVA.;"Код двигателя: CWVB
+Объём: 1.6 л
+Мощность: 90 л.с.
+Привод ГРМ: ремень
+
+Подходит для:
+• Polo Sedan — 2015–2020
+• Rapid 1 — 2015–2020
+• Polo 6 (лифтбек) — 2020–2022
+• Rapid 2 — 2020–2022";;125000;;HEART-CWVB;"Volkswagen;Skoda";"Polo Sedan;Rapid 1;Polo 6 (лифтбек);Rapid 2";1.6 л;90 л.с.;CWVB;ремень
+CFNA;Двигатели;CFNA — двигатель 1.6 л, 105 л.с.;CFNA (1.6 MPI, 105 л.с., цепь). Предыдущее поколение атмосферных двигателей VAG, цепной привод.;"Код двигателя: CFNA
+Объём: 1.6 л
+Мощность: 105 л.с.
+Привод ГРМ: цепь
+
+Подходит для:
+• Polo Sedan — 2010–2015
+• Fabia 2 — 2010–2014
+• Roomster — 2010–2015
+• Rapid 1 — 2012–2015
+• Jetta 6 — 2013–2015";;99000;;HEART-CFNA;"Volkswagen;Skoda";"Polo Sedan;Fabia 2;Roomster;Rapid 1;Jetta 6";1.6 л;105 л.с.;CFNA;цепь
+CFNB;Двигатели;CFNB — двигатель 1.6 л, 85 л.с.;CFNB (1.6 MPI, 85 л.с., цепь). Дефорсированная версия мотора CFNA.;"Код двигателя: CFNB
+Объём: 1.6 л
+Мощность: 85 л.с.
+Привод ГРМ: цепь
+
+Подходит для:
+• Polo Sedan — 2010–2015
+• Rapid 1 — 2012–2015";;105000;;HEART-CFNB;"Volkswagen;Skoda";"Polo Sedan;Rapid 1";1.6 л;85 л.с.;CFNB;цепь
+G4FC;Двигатели;G4FC — двигатель 1.6 л, 122–130 л.с.;G4FC (1.6 Gamma, 122–130 л.с.). Без фазовращателя на выпуске.;"Код двигателя: G4FC
+Объём: 1.6 л
+Мощность: 122–130 л.с.
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• Avante/Elantra (HD) — 2006–2011
+• i30 (FD) — 2007–2012
+• Ceed (ED) — 2007–2012
+• Soul 1 (AM) — 2008–2011
+• Cerato 2 (TD) — 2008–2013
+• Rio 3 (QB) — 2011–2015
+• Solaris 1 (RB) — 2011–2015";;79000;;HEART-G4FC;"Hyundai;KIA";"Avante/Elantra (HD);i30 (FD);Ceed (ED);Soul 1 (AM);Cerato 2 (TD);Rio 3 (QB);Solaris 1 (RB)";1.6 л;122–130 л.с.;G4FC;
+G4FA;Двигатели;G4FA — двигатель 1.4 л, 107 л.с.;G4FA (1.4 Gamma, 107 л.с.).;"Код двигателя: G4FA
+Объём: 1.4 л
+Мощность: 107 л.с.
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• i30 (FD) — 2007–2012
+• Ceed (ED) — 2007–2012
+• Rio 3 (QB) — 2011–2017
+• Solaris 1 (RB) — 2011–2017
+• Ceed (JD) — 2012–2015
+• i30 (GD) — 2012–2015";;79000;;HEART-G4FA;"Hyundai;KIA";"i30 (FD);Ceed (ED);Rio 3 (QB);Solaris 1 (RB);Ceed (JD);i30 (GD)";1.4 л;107 л.с.;G4FA;
+G4FG;Двигатели;G4FG — двигатель 1.6 л, 123–132 л.с.;G4FG (1.6 Gamma II, 123–132 л.с.). Модернизированный 1.6 с двумя фазорегуляторами Dual CVVT.;"Код двигателя: G4FG
+Объём: 1.6 л
+Мощность: 123–132 л.с.
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• Elantra (MD) — 2011–2016
+• Ceed (JD) — 2012–2018
+• Cerato 3 (YD) — 2013–2020
+• Soul 2 (PS) — 2014–2019
+• Solaris 1 (рестайлинг) — 2015–2017
+• Rio 3 (рестайлинг) — 2015–2017
+• Creta 1 (GS) — 2016–2021
+• Elantra (AD) — 2016–2020
+• Solaris 2 (HC) — 2017–2024
+• Rio 4 (FB) — 2017–2024
+• Rio X-Line / X — 2017–2024
+• Ceed (CD) — 2018–2024
+• Cerato 4 (BD) — 2018–2024
+• Soul 3 (SK3) — 2019–2024
+• Seltos — 2020–2024
+• Creta 2 (SU2) — 2021–2024";;85000;;HEART-G4FG;"Hyundai;KIA";"Elantra (MD);Ceed (JD);Cerato 3 (YD);Soul 2 (PS);Solaris 1 (рестайлинг);Rio 3 (рестайлинг);Creta 1 (GS);Elantra (AD);Solaris 2 (HC);Rio 4 (FB);Rio X-Line / X;Ceed (CD);Cerato 4 (BD);Soul 3 (SK3);Seltos;Creta 2 (SU2)";1.6 л;123–132 л.с.;G4FG;
+G4KD;Двигатели;G4KD — двигатель 2.0 л, 150–165 л.с.;G4KD (2.0 Theta II, 150–165 л.с.).;"Код двигателя: G4KD
+Объём: 2.0 л
+Мощность: 150–165 л.с.
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• Sonata 5 (NF) — 2008–2010
+• Magentis 2 / Optima 2 — 2008–2010
+• Tucson 1 (JM) — 2009–2010
+• Sportage 2 (KM) — 2009–2010
+• ix35 (LM) — 2009–2013
+• Sportage 3 (SL) — 2010–2014
+• Cerato 2 (TD) — 2010–2013
+• Sonata 6 (YF) — 2010–2014
+• Optima 3 (TF) — 2010–2015";;138000;;HEART-G4KD;"Hyundai;KIA";"Sonata 5 (NF);Magentis 2 / Optima 2;Tucson 1 (JM);Sportage 2 (KM);ix35 (LM);Sportage 3 (SL);Cerato 2 (TD);Sonata 6 (YF);Optima 3 (TF)";2.0 л;150–165 л.с.;G4KD;
+G4NA;Двигатели;G4NA — двигатель 2.0 л, 150 л.с.;G4NA (2.0 Nu, 150 л.с.). Пришёл на смену G4KD, получил гидрокомпенсаторы.;"Код двигателя: G4NA
+Объём: 2.0 л
+Мощность: 150 л.с.
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• Elantra (MD) — 2011–2016
+• i40 (VF) — 2011–2019
+• ix35 (LM, рестайлинг) — 2013–2015
+• Cerato 3 (YD) — 2013–2020
+• Sportage 3 (SL, рестайлинг) — 2014–2016
+• Sonata 6 (YF) — 2014–2015
+• Optima 3 (TF) — 2014–2015
+• Soul 2 (PS) — 2014–2019
+• Optima 4 (JF) — 2015–2020
+• Sportage 4 (QL) — 2015–2022
+• Elantra (AD) — 2016–2020
+• Creta 1 (GS) — 2016–2021
+• Tucson 3 (TL) — 2015–2021
+• Sonata 7 (LF) — 2017–2019
+• Cerato 4 (BD) — 2018–2024
+• Soul 3 (SK3) — 2019–2024
+• Seltos — 2020–2024
+• Creta 2 (SU2) — 2021–2024";;137000;;HEART-G4NA;"Hyundai;KIA";"Elantra (MD);i40 (VF);ix35 (LM;рестайлинг);Cerato 3 (YD);Sportage 3 (SL;рестайлинг);Sonata 6 (YF);Optima 3 (TF);Soul 2 (PS);Optima 4 (JF);Sportage 4 (QL);Elantra (AD);Creta 1 (GS);Tucson 3 (TL);Sonata 7 (LF);Cerato 4 (BD);Soul 3 (SK3);Seltos;Creta 2 (SU2)";2.0 л;150 л.с.;G4NA;
+G4LC;Двигатели;G4LC — двигатель 1.4 л, 99–100 л.с.;G4LC (1.4 Kappa, 99–100 л.с.). Экономичный мотор с облегчённым блоком.;"Код двигателя: G4LC
+Объём: 1.4 л
+Мощность: 99–100 л.с.
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• i20 (GB) — 2014–2020
+• Rio 4 (FB) — 2017–2024
+• Rio X-Line / X — 2017–2024
+• Solaris 2 (HC) — 2017–2024
+• Ceed (CD) — 2018–2021
+• i30 (PD) — 2017–2020";;92000;;HEART-G4LC;"Hyundai;KIA";"i20 (GB);Rio 4 (FB);Rio X-Line / X;Solaris 2 (HC);Ceed (CD);i30 (PD)";1.4 л;99–100 л.с.;G4LC;
+G4KJ;Двигатели;G4KJ — двигатель 2.4 л, 180–201 л.с.;G4KJ (2.4 Theta II GDI, 180–201 л.с.). Двигатель с непосредственным впрыском топлива.;"Код двигателя: G4KJ
+Объём: 2.4 л
+Мощность: 180–201 л.с.
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• Sonata 6 (YF) — 2009–2014
+• Optima 3 (TF) — 2010–2015
+• Sportage 3 (SL) — 2010–2016
+• Santa Fe 3 (DM) — 2012–2018
+• Sorento 2 (XM, рестайлинг) — 2012–2021
+• Sorento 3 (UM) / Prime — 2014–2020
+• Optima 4 (JF) — 2015–2020
+• Tucson 3 (TL) — 2015–2021
+• Sonata 7 (LF) — 2017–2019";;243000;;HEART-G4KJ;"Hyundai;KIA";"Sonata 6 (YF);Optima 3 (TF);Sportage 3 (SL);Santa Fe 3 (DM);Sorento 2 (XM;рестайлинг);Sorento 3 (UM) / Prime;Optima 4 (JF);Tucson 3 (TL);Sonata 7 (LF)";2.4 л;180–201 л.с.;G4KJ;
+CZCA;Двигатели;CZCA — двигатель 1.4 л, 125 л.с.;CZCA (1.4 TSI, 125 л.с., ремень). Турбомотор серии EA211.;"Код двигателя: CZCA
+Объём: 1.4 л
+Мощность: 125 л.с.
+Привод ГРМ: ремень
+
+Подходит для:
+• Golf 7 — 2013–2020
+• A3 (8V) — 2013–2016
+• Leon 3 — 2013–2018
+• Octavia A7 — 2014–2020
+• Passat B8 — 2014–2019
+• Rapid 1 — 2015–2020
+• Jetta 6 — 2015–2019
+• Polo Sedan — 2015–2020
+• Tiguan 2 — 2016–2020
+• Kodiaq — 2016–2021
+• Polo 6 (лифтбек) — 2020–2022
+• Rapid 2 — 2020–2022";;125000;;HEART-CZCA;"Volkswagen;Audi;Skoda";"Golf 7;A3 (8V);Leon 3;Octavia A7;Passat B8;Rapid 1;Jetta 6;Polo Sedan;Tiguan 2;Kodiaq;Polo 6 (лифтбек);Rapid 2";1.4 л;125 л.с.;CZCA;ремень
+CAXA;Двигатели;CAXA — двигатель 1.4 л, 122 л.с.;CAXA (1.4 TSI, 122 л.с., цепь). Старое поколение турбомоторов EA111 с цепным приводом.;"Код двигателя: CAXA
+Объём: 1.4 л
+Мощность: 122 л.с.
+Привод ГРМ: цепь
+
+Подходит для:
+• Golf 5 — 2007–2008
+• Jetta 5 — 2007–2010
+• Scirocco 3 — 2008–2014
+• Golf 6 — 2008–2012
+• Tiguan 1 — 2008–2015
+• Passat B6 — 2009–2010
+• Octavia A5 — 2010–2013
+• Passat B7 — 2010–2014
+• Jetta 6 — 2011–2015
+• Yeti — 2012–2015";;115000;;HEART-CAXA;"Volkswagen;Skoda";"Golf 5;Jetta 5;Scirocco 3;Golf 6;Tiguan 1;Passat B6;Octavia A5;Passat B7;Jetta 6;Yeti";1.4 л;122 л.с.;CAXA;цепь
+2NZ;Двигатели;2NZ — двигатель 1.5 л / 1.3 л, не указан в оригинале;2NZ (1.5 VVT-i / 1.3 VVT-i). В каталоге указано: легендарные моторы, дебютировавшие одновременно в конце 90-х.;"Код двигателя: 2NZ
+Объём: 1.5 л / 1.3 л
+Мощность: не указан в оригинале
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• Yaris 1 / Vitz 1 — 1999–2005
+• FunCargo — 1999–2005
+• Platz / Echo — 1999–2005
+• Corolla (E120) — 2000–2006
+• Prius 1 (NHW11, только 1NZ-FXE) — 2000–2003
+• bB 1 — 2000–2005
+• Allion 1 / Premio 1 — 2001–2007
+• Probox / Succeed — 2002–2014
+• Prius 2 (NHW20, только 1NZ-FXE) — 2003–2009
+• Sienta 1 — 2003–2015
+• Yaris 2 / Vitz 2 — 2005–2010
+• Corolla Axio / Fielder (E140) — 2006–2012
+• Auris 1 (E150) — 2006–2012
+• Ist 2 — 2007–2016
+• Yaris 3 / Vitz 3 — 2010–2020
+• Corolla Axio / Fielder (E160) — 2012–2022";;139000;;HEART-2NZ;Toyota;"Yaris 1 / Vitz 1;FunCargo;Platz / Echo;Corolla (E120);Prius 1 (NHW11);bB 1;Allion 1 / Premio 1;Probox / Succeed;Prius 2 (NHW20);Sienta 1;Yaris 2 / Vitz 2;Corolla Axio / Fielder (E140);Auris 1 (E150);Ist 2;Yaris 3 / Vitz 3;Corolla Axio / Fielder (E160)";1.5 л / 1.3 л;;2NZ;
+2AZ;Двигатели;2AZ — двигатель 2.4 л, не указан в оригинале;2AZ-FE (2.4 VVT-i). Широко известный мотор среднеразмерной линейки Toyota.;"Код двигателя: 2AZ
+Объём: 2.4 л
+Мощность: не указан в оригинале
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• Camry (XV30) — 2001–2006
+• Highlander 1 (XU20) — 2001–2007
+• RAV4 (XA20) — 2003–2005
+• Alphard 1 — 2002–2008
+• Ipsum 2 — 2001–2009
+• Solara 2 — 2003–2008
+• Camry (XV40) — 2006–2011
+• RAV4 (XA30) — 2005–2012
+• Previa 3 / Estima 3 — 2006–2019
+• Mark X Zio — 2007–2013
+• Alphard 2 / Vellfire 1 — 2008–2015";;149000;;HEART-2AZ;Toyota;"Camry (XV30);Highlander 1 (XU20);RAV4 (XA20);Alphard 1;Ipsum 2;Solara 2;Camry (XV40);RAV4 (XA30);Previa 3 / Estima 3;Mark X Zio;Alphard 2 / Vellfire 1";2.4 л;;2AZ;
+2TR;Двигатели;2TR — двигатель 2.7 л, не указан в оригинале;2TR-FE (2.7 VVT-i). Проверенный временем чугунный мотор для рамных внедорожников и коммерческого транспорта.;"Код двигателя: 2TR
+Объём: 2.7 л
+Мощность: не указан в оригинале
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• Hilux 7 — 2004–2015
+• Hiace 5 — 2004–н.в.
+• Land Cruiser Prado 120 — 2004–2009
+• Tacoma 2 — 2004–2015
+• Fortuner 1 — 2005–2015
+• Innova 1 — 2004–2015
+• Land Cruiser Prado 150 — 2009–2023
+• Fortuner 2 — 2015–н.в.
+• Hilux 8 — 2015–н.в.
+• Tacoma 3 — 2015–2023
+• Land Cruiser 250 (Prado) — 2024–н.в.";;199000;;HEART-2TR;Toyota;"Hilux 7;Hiace 5;Land Cruiser Prado 120;Tacoma 2;Fortuner 1;Innova 1;Land Cruiser Prado 150;Fortuner 2;Hilux 8;Tacoma 3;Land Cruiser 250 (Prado)";2.7 л;;2TR;
+2ZR;Двигатели;2ZR — двигатель 1.8 л, не указан в оригинале;2ZR-FE / 2ZR-FAE (1.8 Dual VVT-i / Valvematic). Современная смена для серии 1ZZ.;"Код двигателя: 2ZR
+Объём: 1.8 л
+Мощность: не указан в оригинале
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• Corolla (E150) — 2006–2013
+• Auris 1 (E150) — 2006–2012
+• Allion 2 / Premio 2 — 2007–2021
+• Matrix 2 — 2008–2014
+• Avensis 3 (T270) — 2008–2018
+• Wish 2 — 2009–2017
+• Prius 3 (ZVW30, только 2ZR-FXE) — 2009–2015
+• Verso — 2009–2018
+• Auris 2 (E180) — 2012–2018
+• Corolla (E180) — 2013–2019
+• Prius 4 (ZVW50, только 2ZR-FXE) — 2015–2022
+• C-HR — 2016–2023
+• Corolla (E210) — 2018–н.в.
+• Corolla Cross — 2020–н.в.";;139000;;HEART-2ZR;Toyota;"Corolla (E150);Auris 1 (E150);Allion 2 / Premio 2;Matrix 2;Avensis 3 (T270);Wish 2;Prius 3 (ZVW30);Verso;Auris 2 (E180);Corolla (E180);Prius 4 (ZVW50);C-HR;Corolla (E210);Corolla Cross";1.8 л;;2ZR;
+1NZ;Двигатели;1NZ — двигатель 1.5 л / 1.3 л, не указан в оригинале;1NZ-FE (1.5 VVT-i) / 2NZ-FE (1.3 VVT-i). В каталоге указано: легендарные моторы, дебютировавшие одновременно в конце 90-х.;"Код двигателя: 1NZ
+Объём: 1.5 л / 1.3 л
+Мощность: не указан в оригинале
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• Yaris 1 / Vitz 1 — 1999–2005
+• FunCargo — 1999–2005
+• Platz / Echo — 1999–2005
+• Corolla (E120) — 2000–2006
+• Prius 1 (NHW11, только 1NZ-FXE) — 2000–2003
+• bB 1 — 2000–2005
+• Allion 1 / Premio 1 — 2001–2007
+• Probox / Succeed — 2002–2014
+• Prius 2 (NHW20, только 1NZ-FXE) — 2003–2009
+• Sienta 1 — 2003–2015
+• Yaris 2 / Vitz 2 — 2005–2010
+• Corolla Axio / Fielder (E140) — 2006–2012
+• Auris 1 (E150) — 2006–2012
+• Ist 2 — 2007–2016
+• Yaris 3 / Vitz 3 — 2010–2020
+• Corolla Axio / Fielder (E160) — 2012–2022";;138000;;HEART-1NZ;Toyota;"Yaris 1 / Vitz 1;FunCargo;Platz / Echo;Corolla (E120);Prius 1 (NHW11);bB 1;Allion 1 / Premio 1;Probox / Succeed;Prius 2 (NHW20);Sienta 1;Yaris 2 / Vitz 2;Corolla Axio / Fielder (E140);Auris 1 (E150);Ist 2;Yaris 3 / Vitz 3;Corolla Axio / Fielder (E160)";1.5 л / 1.3 л;;1NZ;
+1ZZ;Двигатели;1ZZ — двигатель 1.8 л, не указан в оригинале;1ZZ-FE (1.8 VVT-i). Первое поколение алюминиевых 1.8-литровых моторов.;"Код двигателя: 1ZZ
+Объём: 1.8 л
+Мощность: не указан в оригинале
+Привод ГРМ: не указан в оригинале
+
+Подходит для:
+• Corolla (E110) — 1998–2002
+• Celica (T230) — 1999–2006
+• MR2 (W30) — 1999–2007
+• Opa — 2000–2005
+• RAV4 (XA20) — 2000–2005
+• Allion 1 / Premio 1 — 2001–2007
+• Corolla (E120) — 2001–2007
+• Matrix 1 / Pontiac Vibe — 2002–2008
+• Caldina 3 (T240) — 2002–2007
+• Wish 1 — 2003–2009
+• Avensis 2 (T250) — 2003–2008
+• Corolla Verso 2 — 2004–2009";;119000;;HEART-1ZZ;Toyota;"Corolla (E110);Celica (T230);MR2 (W30);Opa;RAV4 (XA20);Allion 1 / Premio 1;Corolla (E120);Matrix 1 / Pontiac Vibe;Caldina 3 (T240);Wish 1;Avensis 2 (T250);Corolla Verso 2";1.8 л;;1ZZ;

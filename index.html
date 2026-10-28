@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="HeartMotors — новые двигатели для вашего автомобиля">
+    <title>
+      HeartMotors — новые двигатели для вашего автомобиля
+    </title>
+    <!-- Шрифт оригинального сайта Tilda. -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    >
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&subset=latin,cyrillic"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/catalog.css">
+  </head>
+  <body>
+    <!-- Фиксированная шапка и якорная навигация по одностраничному сайту -->
+    <header class="site-header" id="home">
+      <a class="logo" href="#home" aria-label="HeartMotors">
+        <img
+          src="https://static.tildacdn.ink/tild3533-3632-4962-a263-363762643165/c06d7ffc-3f83-4b8b-9.png"
+          alt="HeartMotors"
+        >
+      </a>
+      <nav class="main-nav" aria-label="Навигация по странице">
+        <a href="#home">
+          Главная
+        </a>
+        <a href="#about">
+          О компании
+        </a>
+        <a href="#catalog">
+          Каталог
+        </a>
+        <a href="#delivery">
+          Доставка
+        </a>
+        <a href="#faq">
+          FAQ
+        </a>
+        <a href="#contacts">
+          Контакты
+        </a>
+      </nav>
+      <button class="cart-button" id="cart-button" aria-label="Открыть корзину">
+        🛒
+        <span id="cart-count">
+          0
+        </span>
+      </button>
+      <a class="header-phone" href="tel:+79219595916">
+        ☎ &nbsp;+7 921 959-59-16
+      </a>
+      <button class="mobile-menu" id="mobile-menu" aria-label="Открыть меню">
+        ☰
+      </button>
+    </header>
+    <main>
+      <!-- Главный экран: структура перенесена из heartmotors.html. -->
+      <section class="hero-section">
+        <div class="hero-bg">
+          <img
+            src="https://static.tildacdn.ink/tild6533-6432-4432-b239-303030393831/ChatGPT_Image_23__20.png"
+            alt="Новые автомобильные двигатели HeartMotors"
+          >
+        </div>
+        <div class="hero-overlay">
+        </div>
+        <div class="hero-main">
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <h1 class="hero-title">
+                Новые двигатели
+                <br>
+                <span class="hero-title__accent">для вашего автомобиля</span>
+              </h1>
+              <p class="hero-subtitle">
+                Оригинальные и контрактные двигатели для популярных марок. Гарантия, доставка по всей России.
+              </p>
+            </div>
+            <div class="hero-card">
+              <h2 class="hero-card__title">Подберем двигатель под ваш автомобиль. Оставьте заявку!</h2>
+              <form id="hero-form" class="hero-form">
+                <div class="hero-form__group">
+                  <label class="hero-form__label" for="hero-name">Имя</label>
+                  <input class="hero-form__input" id="hero-name" type="text" name="name" placeholder="Иван Смирнов" required>
+                </div>
+                <div class="hero-form__group">
+                  <label class="hero-form__label" for="hero-email">Email</label>
+                  <input class="hero-form__input" id="hero-email" type="email" name="email" placeholder="mail@example.ru">
+                </div>
+                <div class="hero-form__group">
+                  <label class="hero-form__label" for="hero-car">Марка и модель машины</label>
+                  <input class="hero-form__input" id="hero-car" type="text" name="car" placeholder="BMW e92">
+                </div>
+                <button class="hero-form__submit" type="submit">Отправить</button>
+                <p class="form-message">
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="hero-bar">
+          <div class="hero-features">
+            <div class="hero-feature">
+              <div class="hero-feature__icon">
+                <img src="https://static.tildacdn.ink/tild3362-3039-4161-b238-626563613565/free-icon-guarantee-.png" alt="Проверенные двигатели">
+              </div>
+              <div class="hero-feature__text">Только новые и<br>проверенные двигатели</div>
+            </div>
+            <div class="hero-feature">
+              <div class="hero-feature__icon">
+                <img src="https://static.tildacdn.ink/tild6336-6532-4537-b738-316638656663/free-icon-guarantee-.png" alt="Гарантия до 12 месяцев">
+              </div>
+              <div class="hero-feature__text">Гарантия<br>до 12 месяцев</div>
+            </div>
+            <div class="hero-feature">
+              <div class="hero-feature__icon">
+                <img src="https://static.tildacdn.ink/tild3563-3236-4032-a533-323032373666/free-icon-fast-deliv.png" alt="Доставка по всей России">
+              </div>
+              <div class="hero-feature__text">Доставка<br>по всей России</div>
+            </div>
+            <div class="hero-feature">
+              <div class="hero-feature__icon">
+                <img src="https://static.tildacdn.ink/tild3766-6261-4130-a166-656539303439/free-icon-vocational.png" alt="Профессиональная консультация">
+              </div>
+              <div class="hero-feature__text">Профессиональная<br>консультация</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Блок «О компании» -->
+    <section id="about" class="about-section">
+        <div class="about-copy">
+          <h2>
+            О компании
+          </h2>
+          <h3>
+            Кто мы?
+          </h3>
+          <i>
+          </i>
+          <p>
+            Мы покупали машины, продавали их, сдавали в аренду, подбирали автомобили для клиентов и занимались их ремонтом и покраской. Мы начали работать более
+            <em>
+              20 лет
+            </em>
+            назад и продолжаем развиваться сегодня.
+          </p>
+          <p>
+            Сейчас наше основное направление —
+            <strong>
+              продажа и установка
+            </strong>
+            новых автомобильных двигателей. В наличии более
+            <em>
+              100 моторов.
+            </em>
+          </p>
+          <p>
+            У нас регулярно появляются новые двигатели, а собственный сервис позволяет оперативно и качественно выполнить их установку на ваш автомобиль.
+            <strong>
+              Мы даём гарантию
+            </strong>
+            на каждый двигатель и работы по его установке.
+          </p>
+        </div>
+        <div
+          class="about-photo"
+          role="img"
+          aria-label="Сервис HeartMotors"
+        >
+          <!-- Изображение перенесено из Tilda-экспорта; URL можно заменить на локальный файл. -->
+        </div>
+      </section>
+      <!-- Бегущая строка из heartmotors.html; каталог ниже остаётся нашим. -->
+      <div class="marquee-band" aria-label="Наши товары">
+        <div class="marquee-track">
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+
+          <!-- Второй такой же набор нужен для бесшовного повторения строки. -->
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+          <div class="marquee-item"><span>Наши товары</span><span class="marquee-dot"></span></div>
+        </div>
+      </div>
+      <!-- Каталог: товары загружаются из CSV, фильтры работают без перезагрузки -->
+    <section id="catalog" class="catalog-section">
+        <div class="catalog-title">
+          <h2>
+            Наши товары
+          </h2>
+          <p>
+            Подберите двигатель по марке автомобиля или коду двигателя.
+          </p>
+        </div>
+        <div class="catalog-layout">
+          <aside class="filters">
+            <div class="filter-top">
+              <h3>
+                Фильтры
+              </h3>
+              <button id="reset-filters">
+                Сбросить
+              </button>
+            </div>
+            <div class="filter-group">
+              <h4>
+                Марка автомобиля
+              </h4>
+              <div id="brand-filters">
+              </div>
+            </div>
+            <div class="filter-group">
+              <h4>
+                Код двигателя
+              </h4>
+              <div id="engine-filters">
+              </div>
+            </div>
+          </aside>
+          <section class="catalog-results">
+            <div class="results-bar">
+              <span id="results-count">
+                Загрузка каталога…
+              </span>
+              <span>
+                Цены указаны с НДС
+              </span>
+            </div>
+            <div id="product-grid" class="product-grid">
+            </div>
+          </section>
+        </div>
+      </section>
+      <!-- Блок доставки: пошаговый таймлайн -->
+    <section id="delivery" class="delivery-section">
+        <h2>
+          Доставка
+        </h2>
+        <div class="delivery-line">
+        </div>
+        <div class="delivery-step step-one">
+          <span>
+            1
+          </span>
+          <div>
+            <h3>
+              Оформление заказа
+            </h3>
+            <p>
+              Вы оставляете заявку на сайте или
+              <br>
+              связываетесь с нашим менеджером.
+            </p>
+          </div>
+        </div>
+        <div class="delivery-step step-two">
+          <span>
+            2
+          </span>
+          <div>
+            <h3>
+              Подтверждение заказа
+            </h3>
+            <p>
+              Мы уточняем данные автомобиля,
+              <br>
+              выбранный двигатель и адрес получения.
+            </p>
+          </div>
+        </div>
+        <div class="delivery-step step-three">
+          <span>
+            3
+          </span>
+          <div>
+            <h3>
+              Подбор способа доставки
+            </h3>
+            <p>
+              Согласовываем с вами подходящий способ и
+              <br>
+              стоимость доставки.
+            </p>
+          </div>
+        </div>
+        <div class="delivery-step step-four">
+          <span>
+            4
+          </span>
+          <div>
+            <h3>
+              Доставка по России
+            </h3>
+            <p>
+              После подтверждения заказа двигатель бережно
+              <br>
+              упаковывается и передаётся в транспортную компанию.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Слайдер отзывов -->
+    <section class="reviews-section">
+        <h2>
+          Отзывы
+        </h2>
+        <div class="review-card">
+          <button class="review-arrow review-prev" type="button" aria-label="Предыдущий отзыв">
+            ‹
+          </button>
+          <div
+            class="review-avatar"
+            role="img"
+            aria-label="Фотография автора отзыва"
+          >
+            <!-- Фотография меняется скриптом вместе с отзывом. -->
+          </div>
+          <blockquote id="review-text">
+            «Отличный выбор! Двигатель работает как часы, очень довольна покупкой.»
+          </blockquote>
+          <strong id="review-author">
+            Елена Смирнова
+          </strong>
+          <small id="review-role">
+            Автолюбитель
+          </small>
+          <button class="review-arrow review-next" type="button" aria-label="Следующий отзыв">
+            ›
+          </button>
+          <div class="review-dots" id="review-dots">
+          </div>
+        </div>
+      </section>
+      <!-- Частые вопросы -->
+    <section id="faq" class="faq-section">
+        <h2>
+          FAQ
+        </h2>
+        <p>
+          Ответы на частые вопросы.
+        </p>
+        <div class="faq-list">
+          <details>
+            <summary>
+              Сколько стоит доставка?
+            </summary>
+            <div>
+              Стоимость рассчитывается индивидуально и зависит от города и выбранного способа доставки.
+            </div>
+          </details>
+          <details>
+            <summary>
+              Как подобрать двигатель правильно?
+            </summary>
+            <div>
+              Оставьте заявку на сайте и укажите марку, модель, год выпуска и данные автомобиля. Специалист поможет определить подходящий двигатель.
+            </div>
+          </details>
+          <details>
+            <summary>
+              Двигатели новые?
+            </summary>
+            <div>
+              Да, в каталоге представлены новые автомобильные двигатели. Перед покупкой мы поможем проверить совместимость двигателя с вашим автомобилем.
+            </div>
+          </details>
+          <details>
+            <summary>
+              Есть ли гарантия?
+            </summary>
+            <div>
+              Да, гарантия предоставляется на двигатель и выполненные работы по установке.
+            </div>
+          </details>
+        </div>
+      </section>
+      <!-- Форма обратной связи -->
+    <section class="request-section">
+        <h2>
+          Нужна помощь в подборе двигателя?
+        </h2>
+        <p>
+          Для помощи в подборе двигателя оставьте номер телефона. Мы свяжемся с вами и ответим на вопросы.
+        </p>
+        <form id="request-form">
+          <label>
+            Имя
+            <input name="name" placeholder="Ваше имя" required>
+          </label>
+          <label>
+            Электронная почта
+            <input name="email" type="email" placeholder="mail@example.ru">
+          </label>
+          <label>
+            Комментарий
+            <textarea name="comment" rows="3" placeholder="Расскажите о вашем автомобиле">
+            </textarea>
+          </label>
+          <button type="submit">
+            Оставить заявку
+          </button>
+          <p class="form-message">
+          </p>
+        </form>
+      </section>
+    </main>
+    <!-- Контакты и подвал -->
+    <footer id="contacts" class="site-footer">
+      <div class="footer-brand">
+        <a class="logo" href="#home" aria-label="HeartMotors">
+          <img
+            src="https://static.tildacdn.ink/tild3533-3632-4962-a263-363762643165/c06d7ffc-3f83-4b8b-9.png"
+            alt="HeartMotors"
+          >
+        </a>
+        <p>
+          Продажа и установка
+          <br>
+          автомобильных двигателей.
+        </p>
+      </div>
+      <div>
+        <h3>
+          Свяжитесь с нами
+        </h3>
+        <p>
+          Телефон:
+          <a href="tel:+79219595916">
+            8 921 959-59-16
+          </a>
+          <br>
+          8-911-981-35-39
+          <br>
+          Электронная почта:
+          <a href="mailto:info@heartmotors.ru">
+            info@heartmotors.ru
+          </a>
+        </p>
+      </div>
+      <div>
+        <h3>
+          Адрес
+        </h3>
+        <p>
+          г. Санкт-Петербург,
+          <br>
+          проспект Обуховской Обороны, 99Е
+        </p>
+        <p>
+          Пн–Пт 9:00–18:00
+          <br>
+          Сб–Вс — выходной
+        </p>
+      </div>
+      <div>
+        <h3>
+          Соц. сети
+        </h3>
+        <a class="vk" href="https://vk.com/club117565?w=wall-117565_7426">
+          VK
+        </a>
+      </div>
+    </footer>
+    <!-- Модальные окна товара и оформления заказа -->
+    <dialog id="product-dialog">
+      <div id="modal-content">
+      </div>
+    </dialog>
+    <dialog id="checkout-dialog">
+      <div class="checkout-inner">
+        <button class="modal-close" id="checkout-close" type="button">
+          ×
+        </button>
+        <h2>
+          Оформление заказа
+        </h2>
+        <p>
+          Оставьте данные, и мы свяжемся с вами для подтверждения заказа.
+        </p>
+        <form id="checkout-form">
+          <label>
+            Имя
+            <input name="name" required placeholder="Ваше имя">
+          </label>
+          <label>
+            Телефон
+            <input name="phone" required placeholder="+7 900 000-00-00">
+          </label>
+          <label>
+            Email
+            <input name="email" type="email" placeholder="mail@example.ru">
+          </label>
+          <label>
+            Адрес или город
+            <input name="address" placeholder="Город, адрес доставки">
+          </label>
+          <label>
+            Комментарий
+            <textarea name="comment" rows="3" placeholder="Дополнительная информация">
+            </textarea>
+          </label>
+          <button class="checkout-submit" type="submit">
+            Отправить заказ
+          </button>
+          <p class="form-message">
+          </p>
+        </form>
+      </div>
+    </dialog>
+    <aside id="cart-panel" class="cart-panel">
+      <div class="cart-head">
+        <h2>
+          Корзина
+        </h2>
+        <button id="cart-close">
+          ×
+        </button>
+      </div>
+      <div id="cart-items">
+      </div>
+      <div class="cart-total">
+        <span>
+          Итого
+        </span>
+        <strong id="cart-total">
+          0 ₽
+        </strong>
+      </div>
+      <button id="checkout-open" class="checkout-open">
+        Оформить заказ
+      </button>
+      <button id="cart-clear" class="cart-clear">
+        Очистить корзину
+      </button>
+    </aside>
+    <div id="cart-overlay" class="cart-overlay">
+    </div>
+    <!--
+      Адреса PHP API на сервере с MySQL.
+      Пока значения пустые, сайт работает в локальном режиме браузера.
+    -->
+    <script>
+      // На опубликованном Beget обращаемся к API того же домена.
+      // Для локального предпросмотра через XAMPP обращаемся к API на Beget.
+      const isBegetSite = window.location.hostname === 'shushk4n.beget.tech';
+      const apiBase = isBegetSite
+        ? '/api/'
+        : 'http://shushk4n.beget.tech/api/';
+      window.HEARTMOTORS_API_URL = `${apiBase}order.php`;
+      window.HEARTMOTORS_LEAD_API_URL = `${apiBase}lead.php`;
+    </script>
+    <script src="data/data.js">
+    </script>
+    <script src="js/cart.js">
+    </script>
+    <script src="js/modal.js">
+    </script>
+    <script src="js/catalog.js">
+    </script>
+    <script src="js/main.js">
+    </script>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+/* Карточки каталога, модальное окно и боковая корзина, встроенные в одностраничную страницу. */
+.product-card {
+  transition:transform .2s;
+}
+.product-card:hover {
+  transform:translateY(-4px);
+}
+dialog {
+  border:0;
+  padding:0;
+  width:min(760px,92vw);
+  background:#fff;
+  color:#222;
+}
+dialog::backdrop {
+  background:#111b;
+}
+.modal-inner {
+  padding:35px;
+}
+.modal-close {
+  float:right;
+  border:0;
+  background:none;
+  font-size:28px;
+  cursor:pointer;
+}
+.modal-kicker {
+  color:#888;
+  font-size:12px;
+}
+.modal-product-image {
+  display:block;
+  width:100%;
+  max-height:260px;
+  margin:18px 0;
+  object-fit:contain;
+}
+.modal-inner h2 {
+  font-size:30px;
+  margin:12px 0;
+}
+.modal-description {
+  color:#666;
+}
+.spec-grid {
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:0 22px;
+  border-top:1px solid #ddd;
+  margin-top:22px;
+}
+.spec {
+  padding:12px 0;
+  border-bottom:1px solid #ddd;
+}
+.spec dt {
+  color:#888;
+  font-size:11px;
+}
+.spec dd {
+  margin:3px 0;
+  font-size:14px;
+}
+.models-list {
+  line-height:1.7;
+}
+.modal-price {
+  font-size:22px;
+  color:#ff7200;
+  font-weight:700;
+  margin:24px 0;
+}
+.modal-inner .button {
+  border:0;
+  background:#ff7200;
+  color:#fff;
+  border-radius:22px;
+  padding:13px 22px;
+  cursor:pointer;
+}
+.cart-line {
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:10px;
+  padding:17px 0;
+  border-bottom:1px solid #ddd;
+}
+.cart-line small {
+  color:#888;
+}
+.cart-actions {
+  display:flex;
+  align-items:center;
+  gap:7px;
+}
+.cart-actions button {
+  border:1px solid #ddd;
+  background:#fff;
+  width:25px;
+  height:25px;
+  cursor:pointer;
+}
+.cart-remove {
+  color:#d55;
+  border:0!important;
+}
+.cart-total {
+  display:flex;
+  justify-content:space-between;
+  padding:25px 0;
+  font-size:18px;
+}
+.empty-cart {
+  color:#888;
+  padding:30px 0;
+}
+@media(max-width:520px) {
+  .product-grid {
+    gap:22px 12px;
+  }
+  .card-photo {
+    height:125px;
+  }
+  .product-card h3 {
+    font-size:14px;
+  }
+  .modal-inner {
+    padding:25px;
+  }
+  .spec-grid {
+    grid-template-columns:1fr;
+  }
+}
