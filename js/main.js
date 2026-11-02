@@ -36,7 +36,18 @@ document.addEventListener('DOMContentLoaded', () => {
       const apiUrl = window.HEARTMOTORS_LEAD_API_URL || '';
 
       if (message) {
+        message.dataset.status = 'pending';
         message.textContent = 'Отправка…';
+      }
+
+      // Локальная визуальная заглушка для демонстрации; в API и базу не отправляет.
+      if (window.HEARTMOTORS_DEMO_MODE) {
+        if (message) {
+          message.dataset.status = 'success';
+          message.textContent = 'Спасибо! Заявка успешно отправлена.';
+        }
+        form.reset();
+        return;
       }
 
       try {
@@ -47,7 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
             body: JSON.stringify(lead),
           });
 
-          if (!response.ok) {
+          const result = await response.json();
+
+          if (!response.ok || result.success !== true) {
             throw new Error('Не удалось отправить заявку');
           }
         } else {
@@ -60,14 +73,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (message) {
-          message.textContent = 'Запрос успешно добавлен';
+          message.dataset.status = 'success';
+          message.textContent = apiUrl
+            ? 'Спасибо! Заявка отправлена. Мы скоро свяжемся с вами.'
+            : 'Заявка сохранена только в этом браузере и не отправлена менеджеру.';
         }
         form.reset();
       } catch (error) {
         console.error(error);
 
         if (message) {
-          message.textContent = 'Не удалось отправить запрос. Попробуйте ещё раз.';
+          message.dataset.status = 'error';
+          message.textContent = 'Заявка не отправлена. Проверьте соединение и попробуйте позже.';
         }
       }
     });

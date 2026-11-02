@@ -180,6 +180,16 @@ async function submitCheckout(event) {
     createdAt: new Date().toISOString(),
   };
 
+  message.dataset.status = 'pending';
+  message.textContent = 'Отправка заказа…';
+
+  // Локальная визуальная заглушка для демонстрации; заказ не уходит в API или базу.
+  if (window.HEARTMOTORS_DEMO_MODE) {
+    message.dataset.status = 'success';
+    message.textContent = 'Спасибо! Заказ успешно оформлен.';
+    return;
+  }
+
   try {
     if (window.HEARTMOTORS_API_URL) {
       const response = await fetch(window.HEARTMOTORS_API_URL, {
@@ -188,7 +198,11 @@ async function submitCheckout(event) {
         body: JSON.stringify(order),
       });
 
-      if (!response.ok) throw new Error('request failed');
+      const result = await response.json();
+
+      if (!response.ok || result.success !== true) {
+        throw new Error('request failed');
+      }
     } else {
       const orders = JSON.parse(
         localStorage.getItem('heartmotors_orders') || '[]',
@@ -198,7 +212,10 @@ async function submitCheckout(event) {
       localStorage.setItem('heartmotors_orders', JSON.stringify(orders));
     }
 
-    message.textContent = 'Заказ успешно добавлен';
+    message.dataset.status = 'success';
+    message.textContent = window.HEARTMOTORS_API_URL
+      ? 'Спасибо! Заказ отправлен. Мы скоро свяжемся с вами.'
+      : 'Заказ сохранён только в этом браузере и не отправлен менеджеру.';
     cart = [];
     saveCart();
     form.reset();
@@ -208,7 +225,8 @@ async function submitCheckout(event) {
     }, 1400);
   } catch (error) {
     console.error(error);
-    message.textContent = 'Не удалось отправить заказ. Попробуйте ещё раз.';
+    message.dataset.status = 'error';
+    message.textContent = 'Заказ не отправлен. Проверьте соединение и попробуйте позже.';
   }
 }
 

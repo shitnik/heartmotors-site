@@ -26,7 +26,7 @@
   </head>
   <body>
     <!-- Фиксированная шапка и якорная навигация по одностраничному сайту -->
-    <header class="site-header" id="home">
+    <header class="site-header">
       <a class="logo" href="#home" aria-label="HeartMotors">
         <img
           src="https://static.tildacdn.ink/tild3533-3632-4962-a263-363762643165/c06d7ffc-3f83-4b8b-9.png"
@@ -68,7 +68,7 @@
     </header>
     <main>
       <!-- Главный экран: структура перенесена из heartmotors.html. -->
-      <section class="hero-section">
+      <section class="hero-section" id="home">
         <div class="hero-bg">
           <img
             src="https://static.tildacdn.ink/tild6533-6432-4432-b239-303030393831/ChatGPT_Image_23__20.png"
@@ -105,7 +105,7 @@
                   <input class="hero-form__input" id="hero-car" type="text" name="car" placeholder="BMW e92">
                 </div>
                 <button class="hero-form__submit" type="submit">Отправить</button>
-                <p class="form-message">
+                <p class="form-message" aria-live="polite" role="status">
                 </p>
               </form>
             </div>
@@ -424,66 +424,86 @@
           <button type="submit">
             Оставить заявку
           </button>
-          <p class="form-message">
+          <p class="form-message" aria-live="polite" role="status">
           </p>
         </form>
       </section>
     </main>
     <!-- Контакты и подвал -->
     <footer id="contacts" class="site-footer">
-      <div class="footer-brand">
-        <a class="logo" href="#home" aria-label="HeartMotors">
-          <img
-            src="https://static.tildacdn.ink/tild3533-3632-4962-a263-363762643165/c06d7ffc-3f83-4b8b-9.png"
-            alt="HeartMotors"
+      <div class="footer-layout">
+        <div class="footer-info">
+          <div class="footer-brand">
+            <a class="logo" href="#home" aria-label="HeartMotors">
+              <img
+                src="https://static.tildacdn.ink/tild3533-3632-4962-a263-363762643165/c06d7ffc-3f83-4b8b-9.png"
+                alt="HeartMotors"
+              >
+            </a>
+            <p>
+              Продажа и установка
+              <br>
+              автомобильных двигателей.
+            </p>
+          </div>
+          <div>
+            <h3>
+              Свяжитесь с нами
+            </h3>
+            <p>
+              Телефон:
+              <a href="tel:+79219595916">
+                8 921 959-59-16
+              </a>
+              <br>
+              8-911-981-35-39
+              <br>
+              Электронная почта:
+              <a href="mailto:info@heartmotors.ru">
+                info@heartmotors.ru
+              </a>
+            </p>
+          </div>
+          <div>
+            <h3>
+              Адрес
+            </h3>
+            <p>
+              г. Санкт-Петербург,
+              <br>
+              проспект Обуховской Обороны, 99Е
+            </p>
+            <p>
+              Пн–Пт 9:00–18:00
+              <br>
+              Сб–Вс — выходной
+            </p>
+          </div>
+          <div>
+            <h3>
+              Соц. сети
+            </h3>
+            <a class="vk" href="https://vk.com/club117565?w=wall-117565_7426">
+              VK
+            </a>
+          </div>
+        </div>
+        <div class="footer-map">
+          <h3>Мы на карте</h3>
+          <iframe
+            title="Карта: Санкт-Петербург, проспект Обуховской Обороны, 99Е"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=30.4160%2C59.8880%2C30.4460%2C59.9050&amp;layer=mapnik&amp;marker=59.8965%2C30.4311"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <a
+            href="https://yandex.ru/maps/?text=Санкт-Петербург%2C%20проспект%20Обуховской%20Обороны%2C%2099Е"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-        </a>
-        <p>
-          Продажа и установка
-          <br>
-          автомобильных двигателей.
-        </p>
-      </div>
-      <div>
-        <h3>
-          Свяжитесь с нами
-        </h3>
-        <p>
-          Телефон:
-          <a href="tel:+79219595916">
-            8 921 959-59-16
+            Открыть адрес в Яндекс Картах
           </a>
-          <br>
-          8-911-981-35-39
-          <br>
-          Электронная почта:
-          <a href="mailto:info@heartmotors.ru">
-            info@heartmotors.ru
-          </a>
-        </p>
-      </div>
-      <div>
-        <h3>
-          Адрес
-        </h3>
-        <p>
-          г. Санкт-Петербург,
-          <br>
-          проспект Обуховской Обороны, 99Е
-        </p>
-        <p>
-          Пн–Пт 9:00–18:00
-          <br>
-          Сб–Вс — выходной
-        </p>
-      </div>
-      <div>
-        <h3>
-          Соц. сети
-        </h3>
-        <a class="vk" href="https://vk.com/club117565?w=wall-117565_7426">
-          VK
-        </a>
+        </div>
       </div>
     </footer>
     <!-- Модальные окна товара и оформления заказа -->
@@ -527,7 +547,7 @@
           <button class="checkout-submit" type="submit">
             Отправить заказ
           </button>
-          <p class="form-message">
+          <p class="form-message" aria-live="polite" role="status">
           </p>
         </form>
       </div>
@@ -565,6 +585,11 @@
       Пока значения пустые, сайт работает в локальном режиме браузера.
     -->
     <script>
+      // Демо-заглушка только для локального предпросмотра: ничего не отправляет и не сохраняет.
+      window.HEARTMOTORS_DEMO_MODE = window.location.protocol === 'file:'
+        || window.location.hostname === 'localhost'
+        || window.location.hostname === '127.0.0.1';
+
       // На опубликованном Beget обращаемся к API того же домена.
       // Для локального предпросмотра через XAMPP обращаемся к API на Beget.
       const isBegetSite = window.location.hostname === 'shushk4n.beget.tech';
